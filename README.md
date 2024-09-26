@@ -9,3 +9,38 @@ THIS IS TO TEST YOUR SKILLS TO MEET OUR APP DEVELOPMENT REQUIREMENTS
 
 HAPPY CODING! </br>
 A Round Entertainment
+
+### How to Run the Project
+
+## 1. Backend Setup
+
+1. Navigate to the backend folder and install dependencies:
+    ```bash
+    npm install
+    ```
+
+2. Start the backend server:
+    ```bash
+    npm start
+    ```
+
+The backend will run on `http://localhost:5001`.
+
+## 2. Frontend Setup
+
+1. Navigate to the frontend folder and install dependencies:
+    ```bash
+    npm install
+    ```
+
+2. Run the frontend:
+    ```bash
+    npm start
+    ```
+
+The frontend will be available on `http://localhost:3000`.
+
+## API Overview
+- **GET** `/api/products`: Fetches all products.
+- **DELETE** `/api/products/:id`: Deletes a product by ID.
+
